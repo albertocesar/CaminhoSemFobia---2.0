@@ -21,6 +21,8 @@ echo "Funciona?<br>";
         if ($row[0] == null || $row[0] == "") {
             echo "go, mtf!";
             //Query que realiza a inserção dos dados no banco de dados na tabela indicada acima
+//TODO: criar sequence no BD
+//TODO: puxar um nextvalue da sequence para colocar como valor do cod_usuario
     	    $query = "INSERT INTO usuario (nome_completo, email, senha, cod_usuario) VALUES (\"$nome\", \"$email\", \"$senha\", 3)";
     	    if($result = mysqli_query($conexao,$query))
     	        echo "Seu cadastro foi realizado com sucesso!";
