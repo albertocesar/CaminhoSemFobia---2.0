@@ -4432,5 +4432,46 @@ fieldset[disabled] .btn-xl:hover
 
 #mapa
 {
-	margin-top: -5em;
+	height: 35em; 
+	margin-top: 7%;
+	margin-left: 20%;
+	width: 79%;
+}
+
+#canto
+{
+	margin-left: 1%;
+	margin-top: -42%;
+	width: 15em;
+	height: 55em;
+	background-color: #663366;
+	font-color: #fff;
+	text-align: center;
+	
+}
+
+#sem
+{
+    list-style-type:none;
+    color: #fff;
+    border: 2px solid #FFF;
+    text-align: center center;
+
+}
+#meio
+{
+	
+	width: 12em;
+	height: 44em;
+	margin-left: 9%;
+	text-align: center;
+}
+#organizado
+{
+	margin-right: 2em;
+	margin-top: -2em;
+}
+#alinhar
+{
+	margin-left: -1.5em;
 }
