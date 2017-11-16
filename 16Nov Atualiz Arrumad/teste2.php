@@ -1,7 +1,7 @@
 
 
 <?php
-   include("teste.php");
+   include("teste2.php");
    session_start();
 
  	$user_check = $_SESSION['login_user'];
@@ -13,7 +13,7 @@
    $login_session = $row['email'];
    
    if(!isset($_SESSION['login_user'])){
-      header("location:perfil_incompleto.html");
+      header("location: perfil_incompleto.html");
    }
    
    if($_SERVER["REQUEST_METHOD"] == "POST") {

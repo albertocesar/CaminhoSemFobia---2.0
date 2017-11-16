@@ -31,7 +31,7 @@ echo "Funciona?";
 	$query = "INSERT INTO `usuario` ( `nome_completo` , `email` , `senha`, `cod_usuario` )
 	VALUES ('$nome', '$email', '$senha', 1)";
 	mysql_query($query,$conexao);
-	echo "Seu cadastro foi realizado com sucesso!";
+	echo header("location: cadastro_sucesso.html");
 	//mensagem que é escrita quando os dados são inseridos normalmente.
 ?>
 

@@ -22,6 +22,8 @@
     	        echo "Seu cadastro foi realizado com sucesso!"; //TODO: direcionar p pag de Cadastro realizado com sucesso
             else
                 echo "bosta."; //TODO: direcionar p página de erro
+			$error = "inválido";
+			header("location: erro_generico.html");
         } else {
             echo "<br>Email já cadastrado: \"", $row[0],"\"."; //TODO: direcionar p página de erro (avisar q o email já está cadastrado)
         }
