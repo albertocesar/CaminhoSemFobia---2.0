@@ -1,18 +1,9 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
-<title>Caminho sem Fobia</title>
-</head>
-
-<body>
-
 <?php
 echo "Funciona?";
 // RECEBENDO OS DADOS PREENCHIDOS DO FORMULÁRIO !
 	$host= $_POST ["localhost"];
 	$bd= $_POST ["caminhosemfobia"];
-	$nome= $_POST ["name"];//atribuição do campo "nome" vindo do formulário para variavel
+	$nome= $_POST ["nome"];//atribuição do campo "nome" vindo do formulário para variavel
 	$email= $_POST ["email"];//atribuição do campo "email" vindo do formulário para variavel
 	$senha= $_POST ["senha"];//atribuição do campo "senha" vindo do formulário para variavel
  
